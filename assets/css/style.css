@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 :root {
-    --moveX: 10deg;
+    --moveX: 1deg;
     --moveY: 10deg;
 }
 .layers{
@@ -39,11 +39,11 @@ transform: rotateX(var(--moveY)) rotateY(var(--moveX));
 }
 
 .item-1 {
-    transform: translateZ(-200px);
+    transform: translateZ(-50px);
 }
 
 .item-2 {
-    transform: translateZ(-200px);
+    transform: translateZ(-50px);
 }
 
 .item-3 {
